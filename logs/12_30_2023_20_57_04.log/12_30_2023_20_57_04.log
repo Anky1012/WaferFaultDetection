@@ -1,0 +1,40 @@
+[ 2023-12-30 20:57:08,728 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-12-30 20:57:08,748 ] 224 werkzeug - INFO -  * Debugger PIN: 106-441-951
+[ 2023-12-30 20:57:23,602 ] 92 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2023-12-30 20:57:23,603 ] 60 root - INFO - Exporting data from mongodb
+[ 2023-12-30 20:57:23,610 ] 92 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2023-12-30 20:57:23,610 ] 60 root - INFO - Exporting data from mongodb
+[ 2023-12-30 20:57:28,839 ] 69 root - INFO - Saving exported data into feature store file path: artifacts
+[ 2023-12-30 20:57:29,028 ] 98 root - INFO - Got the data from mongodb
+[ 2023-12-30 20:57:29,028 ] 101 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2023-12-30 20:57:29,029 ] 98 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2023-12-30 20:57:29,351 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2023-12-30 20:57:29,351 ] 69 root - INFO - Saving exported data into feature store file path: artifacts
+[ 2023-12-30 20:57:29,413 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2023-12-30 20:57:29,422 ] 145 root - INFO - Splitting training and testing input and target feature
+[ 2023-12-30 20:57:29,423 ] 156 root - INFO - Extracting model config file path
+[ 2023-12-30 20:57:29,424 ] 163 root - INFO - Extracting model config file path
+[ 2023-12-30 20:57:29,484 ] 98 root - INFO - Got the data from mongodb
+[ 2023-12-30 20:57:29,485 ] 101 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2023-12-30 20:57:29,485 ] 98 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2023-12-30 20:57:29,710 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2023-12-30 20:57:29,712 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2023-12-30 20:57:29,713 ] 145 root - INFO - Splitting training and testing input and target feature
+[ 2023-12-30 20:57:29,714 ] 156 root - INFO - Extracting model config file path
+[ 2023-12-30 20:57:29,714 ] 163 root - INFO - Extracting model config file path
+[ 2023-12-30 20:59:06,727 ] 197 root - INFO - Best found model on both training and testing dataset
+[ 2023-12-30 20:59:06,727 ] 202 root - INFO - Saving model at path: artifacts\model.pkl
+[ 2023-12-30 20:59:06,728 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2023-12-30 20:59:06,770 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2023-12-30 20:59:06,772 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Dec/2023 20:59:06] "GET /train HTTP/1.1" 200 -
+[ 2023-12-30 20:59:08,088 ] 197 root - INFO - Best found model on both training and testing dataset
+[ 2023-12-30 20:59:08,089 ] 202 root - INFO - Saving model at path: artifacts\model.pkl
+[ 2023-12-30 20:59:08,089 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2023-12-30 20:59:08,093 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2023-12-30 20:59:08,094 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Dec/2023 20:59:08] "GET /train HTTP/1.1" 200 -
+[ 2023-12-30 20:59:39,040 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Dec/2023 20:59:39] "GET / HTTP/1.1" 200 -
+[ 2023-12-30 20:59:48,202 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Dec/2023 20:59:48] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+[ 2023-12-30 20:59:48,263 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Dec/2023 20:59:48] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2023-12-30 20:59:48,420 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Dec/2023 20:59:48] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2023-12-30 20:59:48,847 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Dec/2023 20:59:48] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2023-12-30 20:59:49,103 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Dec/2023 20:59:49] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
