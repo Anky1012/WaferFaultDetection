@@ -1,0 +1,30 @@
+[ 2023-12-04 19:48:24,213 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-12-04 19:48:24,231 ] 224 werkzeug - INFO -  * Debugger PIN: 138-479-815
+[ 2023-12-04 19:48:31,085 ] 224 werkzeug - INFO - 127.0.0.1 - - [04/Dec/2023 19:48:31] "GET / HTTP/1.1" 200 -
+[ 2023-12-04 19:48:40,580 ] 92 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2023-12-04 19:48:40,581 ] 60 root - INFO - Exporting data from mongodb
+[ 2023-12-04 19:48:53,906 ] 69 root - INFO - Saving exported data into feature store file path: artifacts
+[ 2023-12-04 19:48:54,062 ] 98 root - INFO - Got the data from mongodb
+[ 2023-12-04 19:48:54,062 ] 101 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2023-12-04 19:48:54,063 ] 98 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2023-12-04 19:48:54,294 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2023-12-04 19:48:54,297 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2023-12-04 19:48:54,298 ] 145 root - INFO - Splitting training and testing input and target feature
+[ 2023-12-04 19:48:54,299 ] 156 root - INFO - Extracting model config file path
+[ 2023-12-04 19:48:54,299 ] 163 root - INFO - Extracting model config file path
+[ 2023-12-04 19:48:59,756 ] 224 werkzeug - INFO - 127.0.0.1 - - [04/Dec/2023 19:48:59] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2023-12-04 19:49:00,087 ] 92 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2023-12-04 19:49:00,087 ] 60 root - INFO - Exporting data from mongodb
+[ 2023-12-04 19:49:05,908 ] 69 root - INFO - Saving exported data into feature store file path: artifacts
+[ 2023-12-04 19:49:06,137 ] 98 root - INFO - Got the data from mongodb
+[ 2023-12-04 19:49:06,138 ] 101 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2023-12-04 19:49:06,138 ] 98 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2023-12-04 19:49:06,516 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2023-12-04 19:49:06,518 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2023-12-04 19:49:06,519 ] 145 root - INFO - Splitting training and testing input and target feature
+[ 2023-12-04 19:49:06,520 ] 156 root - INFO - Extracting model config file path
+[ 2023-12-04 19:49:06,520 ] 163 root - INFO - Extracting model config file path
+[ 2023-12-04 19:49:10,435 ] 224 werkzeug - INFO - 127.0.0.1 - - [04/Dec/2023 19:49:10] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2023-12-04 19:49:10,519 ] 224 werkzeug - INFO - 127.0.0.1 - - [04/Dec/2023 19:49:10] "GET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2023-12-04 19:49:10,551 ] 224 werkzeug - INFO - 127.0.0.1 - - [04/Dec/2023 19:49:10] "GET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2023-12-04 19:49:10,902 ] 224 werkzeug - INFO - 127.0.0.1 - - [04/Dec/2023 19:49:10] "GET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
