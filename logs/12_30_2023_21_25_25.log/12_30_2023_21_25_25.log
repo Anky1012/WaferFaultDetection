@@ -6,3 +6,9 @@
 [ 2023-12-30 21:31:03,729 ] 110 root - INFO - predictions completed. 
 [ 2023-12-30 21:31:03,730 ] 40 root - INFO - prediction completed. Downloading prediction file.
 [ 2023-12-30 21:31:03,732 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Dec/2023 21:31:03] "POST /predict HTTP/1.1" 200 -
+[ 2023-12-30 23:44:32,363 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Dec/2023 23:44:32] "GET /predict HTTP/1.1" 200 -
+[ 2023-12-30 23:44:32,444 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Dec/2023 23:44:32] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[ 2023-12-30 23:44:32,467 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Dec/2023 23:44:32] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+[ 2023-12-30 23:49:14,588 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Dec/2023 23:49:14] "GET /predict HTTP/1.1" 200 -
+[ 2023-12-30 23:49:14,646 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Dec/2023 23:49:14] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[ 2023-12-30 23:49:14,858 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Dec/2023 23:49:14] "GET /static/css/style.css HTTP/1.1" 200 -
